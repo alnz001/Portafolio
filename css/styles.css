@@ -272,7 +272,7 @@ body {
 
 .sobre-mi {
   padding: 4rem 2rem;
-  background: #181818;
+  background: #000000;
   color: #fff;
   text-align: center;
 }
@@ -280,10 +280,9 @@ body {
 .sobre-mi h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #00c896;
+  color: #3229b9;
 }
 
-/* Contenedor con Flex */
 .sobre-contenedor {
   display: flex;
   justify-content: center;
@@ -291,15 +290,14 @@ body {
   gap: 2rem;
   max-width: 1100px;
   margin: 0 auto;
-  flex-wrap: wrap; /* hace responsive automáticamente */
+  flex-wrap: wrap; 
 }
 
-/* Imagen */
 .sobre-img img {
   width: 280px;
   max-width: 100%;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 200, 150, 0.3);
+  box-shadow: 0 0 20px rgba(16, 0, 245, 0.541);
   transition: 0.3s;
 }
 
@@ -307,7 +305,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Texto */
 .sobre-texto {
   flex: 1;
   text-align: left;
@@ -324,7 +321,6 @@ body {
   line-height: 1.6;
 }
 
-/* Botón */
 .btn-sobre {
   display: inline-block;
   margin-top: 1rem;
