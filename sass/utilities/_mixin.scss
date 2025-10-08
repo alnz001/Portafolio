@@ -1,0 +1,27 @@
+// GRID GENERAL
+@mixin grid($grid, $columns, $rows, $height) {
+display: $grid;
+grid-template-columns: $columns;
+grid-template-rows: $rows;
+min-height: $height;
+}
+
+// GRID HEADER 
+@mixin gridH($grid, $columns) {
+    display: $grid;
+    grid-template-columns: $columns;
+}
+
+// NAV FLEX 
+@mixin flex ($flex,$gap) {
+    display: $flex;
+    gap: $gap;
+}
+
+// FLEXICONS 
+@mixin flexI ($flex, $justify-content, $gap) {
+    display: $flex;
+    justify-content: $justify-content;
+    gap: $gap;
+}
+

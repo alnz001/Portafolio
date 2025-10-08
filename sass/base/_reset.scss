@@ -1,0 +1,17 @@
+// Import 
+@use "../utilities/variables" as *;
+
+/* reset */ 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+// Estilos generales 
+
+body {
+font-family: "Poppins", sans-serif;
+background: $color-secundario;
+color: $color-terciario;
+}
