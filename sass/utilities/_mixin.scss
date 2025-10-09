@@ -25,3 +25,13 @@ min-height: $height;
     gap: $gap;
 }
 
+// MEDIDAS
+@mixin medidasM ($margin) {
+    margin: $margin;
+}
+
+@mixin medidasP ($padding) {
+    padding: $padding;
+}
+
+
