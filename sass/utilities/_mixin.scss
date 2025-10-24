@@ -34,4 +34,8 @@ min-height: $height;
     padding: $padding;
 }
 
+@mixin flexL ($flex, $justify-content) {
+display: $flex;
+justify-content: $justify-content;
+}
 
